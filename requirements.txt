@@ -1,0 +1,2 @@
+# Data manipulation and reading the dataset
+pandas>=2.0.0
