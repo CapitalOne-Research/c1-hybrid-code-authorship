@@ -44,8 +44,9 @@ The dataset schema (`HybridCodeAuthorship.csv`) includes the following columns:
 Below is a quick demo using Python and `pandas` to load and inspect the dataset:
 
 ```python
-import pandas as pd
 import ast
+import glob
+import pandas as pd
 
 # Reads all chunks and fuses them into one DataFrame in memory automatically
 file_paths = sorted(glob.glob("data/HybridCodeAuthorship_part_*.csv"))
