@@ -1,6 +1,6 @@
 # HybridCodeAuthorship
 
-> **🎉 Accepted to LREC 2026 🎉** > *The paper introducing this dataset has been accepted to LREC 2026. A link to the official publication will be provided here after the conference concludes (post 05/16/2026).*
+> **🎉Published at LREC 2026.🎉** Read the paper [here](https://lrec.elra.info/lrec2026-main-117).
 
 HybridCodeAuthorship is a benchmark dataset designed for line-level and chunk-level AI-generated code authorship detection. With the rapid adoption of AI code assistants, industry codebases are increasingly becoming a hybrid of AI- and human-authored code. This dataset simulates the authentic utilization of AI code assistants by interleaving human and AI-authored lines of code.
 
@@ -80,8 +80,33 @@ This dataset is intended for researchers and practitioners developing and evalua
 If you discover formatting errors, broken links, or issues with the dataset, please [open an issue](https://github.com/CapitalOne-Research/c1-hybrid-code-authorship/issues) in this repository. We welcome feedback and community validation!
 
 ## Citation
-If you use this dataset in your research, please cite our LREC 2026 paper. 
-*(Full citation details and the paper link will be updated after May 16, 2026).*
+If you use this dataset in your research, please cite our LREC 2026 paper:
+
+**APA:**
+Patterson, L. S., Wang, L., & Faulkner, A. (2026). HybridCodeAuthorship: A Benchmark Dataset for Line-Level Code Authorship Detection. In *Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)* (pp. 1520–1532). European Language Resources Association (ELRA). https://doi.org/10.63317/4edsbxrqe8na
+
+**MLA:**
+Patterson, Luke S., et al. "HybridCodeAuthorship: A Benchmark Dataset for Line-Level Code Authorship Detection." *Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)*, European Language Resources Association (ELRA), 2026, pp. 1520-1532. https://doi.org/10.63317/4edsbxrqe8na
+
+**IEEE:**
+L. S. Patterson, L. Wang, and A. Faulkner, "HybridCodeAuthorship: A Benchmark Dataset for Line-Level Code Authorship Detection," in *Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)*, Palma, Mallorca, Spain, 2026, pp. 1520-1532. doi: 10.63317/4edsbxrqe8na
+
+**BibTeX:**
+```bibtex
+@inproceedings{patterson-etal-2026-hybridcodeauthorship,
+  title = {HybridCodeAuthorship: A Benchmark Dataset for Line-Level Code Authorship Detection},
+  author = {Patterson, Luke S. and Wang, Li and Faulkner, Adam},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {1520--1532},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/4edsbxrqe8na},
+  abstract = {Thanks to the rapid adoption of AI code assistants powered by large language models (LLMs), industry codebases are, increasingly, a hybrid of AI- and human-authored code. For risk management and productivity analysis purposes, it is crucial to enable fine-grained location detection of AI-generated code. To develop algorithms for this task, quality benchmarks are needed to assess performance. However, existing benchmarks tend to comprise academic, LeetCode-style problems and presume a code snippet is either completely human-authored or completely AI-authored, which is not reflective of the diverse intents and styles of industry codebases utilizing AI code assistants. To fill these gaps, we introduce HybridCodeAuthorship, a novel benchmark of Python code files with interleaved human- and AI-authored lines of code to simulate authentic utilization of AI code assistants. In this paper, we first present our dataset construction pipeline, which leverages CodeSearchNet, a massive collection of links to open sourced repositories on GitHub. We then benchmark the performance of two state-of-the-art AI-generated code detection algorithms at both the line- and chunk-level. Experimental results demonstrate that HybridCodeAuthorship is a challenging benchmark with a top-scoring algorithm, AIGCode Detector, obtaining a highest F1 score of 0.48 and 0.56 on line-level and chunk-level code detection tasks, respectively.}
+}
+```
 
 ## License
 This project is licensed under the Apache 2.0 License.
